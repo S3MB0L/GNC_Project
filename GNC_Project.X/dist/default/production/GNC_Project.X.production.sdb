@@ -1,0 +1,354 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"21 E:\PIC18F4550\MPLABX\GNC_Project.X\LCD_16x2_8bit.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"34
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"39
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"49
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"59
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"68
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+"26 E:\PIC18F4550\MPLABX\GNC_Project.X\Main.c
+[v _main main `(i  1 e 2 0 ]
+"125
+[v _System_Init System_Init `(v  1 e 1 0 ]
+"10 E:\PIC18F4550\MPLABX\GNC_Project.X\Usart.c
+[v _USART_Init USART_Init `(v  1 e 1 0 ]
+"21
+[v _USART_TxChar USART_TxChar `(v  1 e 1 0 ]
+"27
+[v _USART_RxChar USART_RxChar `(uc  1 e 1 0 ]
+[s S116 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2353 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4550.h
+[s S251 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S259 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S265 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S268 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S270 . 1 `S116 1 . 1 0 `S251 1 . 1 0 `S259 1 . 1 0 `S265 1 . 1 0 `S268 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES270  1 e 1 @3968 ]
+[s S176 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2605
+[s S185 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S192 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S199 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S203 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S206 . 1 `S176 1 . 1 0 `S185 1 . 1 0 `S192 1 . 1 0 `S199 1 . 1 0 `S203 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES206  1 e 1 @3970 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S108 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3457
+[u S124 . 1 `S108 1 . 1 0 `S116 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES124  1 e 1 @3986 ]
+"3847
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S144 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S151 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S158 . 1 `S144 1 . 1 0 `S151 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES158  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4936
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S32 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977
+[s S41 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S44 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S47 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S50 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S53 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S55 . 1 `S32 1 . 1 0 `S41 1 . 1 0 `S44 1 . 1 0 `S47 1 . 1 0 `S50 1 . 1 0 `S53 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES55  1 e 1 @4011 ]
+"5146
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"9201
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"9975
+[v _LATC1 LATC1 `VEb  1 e 0 @31833 ]
+"9978
+[v _LATC2 LATC2 `VEb  1 e 0 @31834 ]
+"10443
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"10935
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"10938
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"11043
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"19 E:\PIC18F4550\MPLABX\GNC_Project.X\Main.c
+[v _data_in data_in `uc  1 e 1 0 ]
+"20
+[v _Count_1 Count_1 `uc  1 e 1 0 ]
+"21
+[v _Count_2 Count_2 `uc  1 e 1 0 ]
+"22
+[v _Count_3 Count_3 `uc  1 e 1 0 ]
+"26
+[v _main main `(i  1 e 2 0 ]
+{
+"122
+} 0
+"21 E:\PIC18F4550\MPLABX\GNC_Project.X\Usart.c
+[v _USART_TxChar USART_TxChar `(v  1 e 1 0 ]
+{
+[v USART_TxChar@out out `uc  1 a 1 wreg ]
+[v USART_TxChar@out out `uc  1 a 1 wreg ]
+[v USART_TxChar@out out `uc  1 a 1 0 ]
+"25
+} 0
+"27
+[v _USART_RxChar USART_RxChar `(uc  1 e 1 0 ]
+{
+"38
+} 0
+"10
+[v _USART_Init USART_Init `(v  1 e 1 0 ]
+{
+"12
+[v USART_Init@temp temp `f  1 a 4 59 ]
+"10
+[v USART_Init@baud_rate baud_rate `l  1 p 4 55 ]
+"19
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 33 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 26 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 31 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 38 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 37 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 30 ]
+"11
+[v ___fldiv@b b `d  1 p 4 14 ]
+[v ___fldiv@a a `d  1 p 4 18 ]
+"185
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 54 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 53 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 52 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 51 ]
+"10
+[v ___fladd@b b `d  1 p 4 39 ]
+[v ___fladd@a a `d  1 p 4 43 ]
+"237
+} 0
+"125 E:\PIC18F4550\MPLABX\GNC_Project.X\Main.c
+[v _System_Init System_Init `(v  1 e 1 0 ]
+{
+"148
+} 0
+"68 E:\PIC18F4550\MPLABX\GNC_Project.X\LCD_16x2_8bit.c
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+{
+[v LCD_String_xy@row row `uc  1 a 1 wreg ]
+"70
+[v LCD_String_xy@location location `uc  1 a 1 8 ]
+"68
+[v LCD_String_xy@row row `uc  1 a 1 wreg ]
+[v LCD_String_xy@pos pos `uc  1 p 1 4 ]
+[v LCD_String_xy@msg msg `*.32Cuc  1 p 2 5 ]
+[v LCD_String_xy@row row `uc  1 a 1 7 ]
+"82
+} 0
+"59
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@msg msg `*.32Cuc  1 p 2 2 ]
+"66
+} 0
+"49
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@dat dat `uc  1 a 1 wreg ]
+[v LCD_Char@dat dat `uc  1 a 1 wreg ]
+"51
+[v LCD_Char@dat dat `uc  1 a 1 1 ]
+"57
+} 0
+"34
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"37
+} 0
+"21
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"30
+} 0
+"39
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+"41
+[v LCD_Command@cmd cmd `uc  1 a 1 1 ]
+"47
+} 0
