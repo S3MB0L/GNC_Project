@@ -53,7 +53,18 @@ int main() {
         LCD_Clear();
         
         if (BUTON0 == 1) {
+        /*
+            To-Do:
+            if kısmını binary tip te ve define olmadan deneyelim
+            if(PORTCbits.RC0 == 0b00000001 veya PORTC == 0b00000001) { ... } şeklinde
+            #include <stdio.h>
+            #include <stdlib.h> ile standart c kütüphanlerini ekleyelim debug için
             
+            portun durumunu sprintf ile lcd ye yazdıralım
+            sprintf(buffer,"%x",PORTCBits.RC0); ile
+            LCD_String(buffer); ile ekrana yazdıralım 
+            Debug aracında portc registerini izlersek daha güzel olur tabi
+        */
             Count_3++;
             
             if (Count_3 == 1) {
@@ -71,6 +82,18 @@ int main() {
 
             }
         }
+        /*
+            To-Do:
+            buraya yukarıdaki if deyimine karşılık else if ve else ekleyelim
+            if(PORTC == 0b00000001 veya Button0==1)
+            {...}
+            else if(PORTC = 0b00000000 veya Button0==0)
+            {Burada LCD ye portc=0 diye yazdırabiliriz...}
+            burada iki kod bloğu da çalışmadığı durumda pin konfigrasyonuyla yada 
+            compilerle alakalı bir sorun oldğunu anlamış oluruz ve o hatayı yazdırırız.
+            else
+            {LCD PORTC error...}
+        */
         
         if (data_in == '1') {
             Count_1++;
